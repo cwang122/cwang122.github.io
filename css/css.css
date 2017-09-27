@@ -1,0 +1,459 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:400,600,800,700,500);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700);
+@import url(https://fonts.googleapis.com/css?family=Monda:400,700);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700italic,700,600italic,600,500italic,500,400italic);
+
+
+body {
+	background-color:#eeeeee;
+	color: #444444;
+	background-image: url('../images/cheap.png');
+	background-repeat: repeat;
+}
+
+header {
+	color: rgb(47,79,79);
+	background-color: rgb(255,255,255);
+	width: 100%;	
+	position: fixed;	
+	z-index: 300;
+	top: 0px;
+	left:0px;
+	height: 110px;
+	box-shadow: 1px 2px 2px rgba(0,0,0,0.3);
+	background-image: url('../images/dark.png');
+	background-repeat: repeat;
+}
+
+.top-line {	
+	position: relative;
+	line-height: 50px;
+	font-family: 'Dosis',sans-serif;
+	text-align: left;
+	font-weight: 500;
+	margin:auto;
+	margin-top: 11px;
+	width: 1000px;
+
+} 
+
+.menu-item {
+	float: left;
+	text-decoration: normal;
+	text-decoration: none;
+	padding-top: 20px;
+}
+
+header > div > div > .menu-item :hover {
+	transform:scale(1.0);
+	background-color: #9719E6;
+}
+
+
+#item-group {
+	float: right;
+	font-size: 26px;
+	color:rgb(244,255,240);
+	margin-top: 15px;
+}
+
+header #item-group > div {
+	position: relative;
+}
+
+header #item-group > div > div {
+	position: absolute;
+	left: 0;
+	background-color: rgb(54,54,54);
+	color: #fff;
+	white-space: nowrap;
+	display: none;
+}
+
+header #item-group > div:hover > div {
+	display: block
+}
+
+#icon {
+	width: 120px;
+	height:120px;
+}
+
+
+#nav {
+	float: left;
+	width: 1000px;
+	height: 70px;
+	position: relative;
+	background-color: rgb(139,129,76);
+	float: left;
+	width: 1000px;
+	text-align: right;
+	box-shadow: 2px 2px 2px;
+	margin-top: 100px;
+	margin-bottom: 20px;
+	border-radius: 8px;
+}
+
+#navtitle {
+	float: left;
+	font-size: 40px;
+	margin:15px;
+	font-family:'Raleway',sans-serif;
+	color: rgb(255,248,220);
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.5)
+}
+
+#number {
+	float: left;
+	font-size: 25px;
+	margin-top:20px;
+	margin-bottom: 10px;
+	font-family:'Monda',sans-serif;
+	color: rgb(255,248,220);
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+#top-title {
+	float: left;
+	color: rgb(205,205,193);
+	font-size: 40px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	padding-top: 30px;
+}
+
+
+#icon-box {
+	float: left;
+}
+
+.top-links {
+	text-decoration: none;
+	color: rgb(255,255,240);
+}
+
+.subitems {
+	width: 166px;
+	text-align: center;
+}
+
+.main-column {
+	width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 30px;
+}
+
+#homepage {
+	position: relative;
+	float:left;
+}
+
+
+
+#h3 {
+	float: left;
+	box-shadow: 2px 2px 2px;
+
+}
+
+#h1 {
+	margin-left: 5px;
+	box-shadow: 2px 2px 2px;
+}
+
+#h2 {
+	height: 175px;
+	width:270px;
+	margin-left: 5px;
+	box-shadow: 2px 2px 2px;
+	}
+
+.main-text {
+	position: absolute;
+	font-family: 'Playfair Display',sans-serif;
+	font-size:27px;
+	margin-left: 40px;
+	margin-top: 30px;
+	font-weight: bold;
+	color: rgb(220,255,255);
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.8)
+}
+
+#video-text {
+	font-family: 'Monda',sans-serif;
+}
+
+.homepage-part-2 {
+	position: relative;
+	float: left;
+	margin-top: 15px;
+	font-family: 'Monda',sans-serif;
+}
+
+span {
+	color: rgb(85,107,47);
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#page-2 {
+	width: auto;
+	float: left;
+	margin-top: 20px;
+}
+
+#second-header {
+	position: relative;
+	background-color: rgb(210,180,140);
+	float: left;
+	height: 56px;
+	width: 1000px;
+	text-align: left;
+	box-shadow: 2px 2px 2px;
+	border-radius: 8px;
+	font-family:'Raleway',sans-serif;
+}
+
+#second-head-text {
+	font-size: 25px;
+	color: rgb(211,211,211);
+	margin-top: 14px;
+	margin-bottom: 7px;
+	margin-left: 10px;
+	font-weight: bold;
+	font-family:'Raleway',sans-serif;
+
+}
+
+#axis {
+	color: rgb(178,34,34);
+	font-size: 26px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+#vs {
+	color: rgb(54,54,54);
+	font-family: 'Raleway',sans-serif;
+	font-size:25px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5)
+}
+
+#allies {
+	color: rgb(65,105,225);
+	font-size: 26px;
+	text-shadow:1px 1px 1px  rgba(0,0,0,0.5);
+}
+
+.axis,
+.allies {
+	position: relative;
+	float: left;
+	font-family: 'Monda',sans-serif;
+	font-weight: bold;
+	margin: 40px;
+	margin-left: 90px;
+	margin-right:60px;
+}
+
+#axis-flags,
+#allies-flags {
+	position: relative;
+	float: left;
+	box-shadow: 2px 2px 2px;
+}
+
+.allies {
+	margin-left: 105px;
+}
+
+
+#axis-title {
+	color: rgb(178,34,34);
+	font-size: 20px;
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.5)
+}
+
+#allies-title {
+	color: rgb(65,105,225);
+	font-size: 20px;
+	text-shadow:2px 2px 2px  rgba(0,0,0,0.5);
+}
+
+#axis-list,
+#allies-list {
+	margin-top: 90px;
+}
+
+#powers-map {
+	position: relative;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+#page3-addontext {
+		font-family: 'Monda',sans-serif;
+
+}
+
+#page-3 {
+	width: auto;
+	float: left;
+	margin-top: 40px;
+}
+
+#bar-3 {
+	margin-top: -100px;
+}
+
+#third-header {
+	position: relative;
+	background-color: rgb(95,158,160);
+	float: left;
+	height: 56px;
+	width: 1000px;
+	text-align: left;
+	box-shadow: 2px 2px 2px;
+	border-radius: 8px;
+	font-family:'Raleway',sans-serif;
+}
+
+#third-title {
+	font-size: 25px;
+	color: rgb(54,54,54);
+	margin-top: 14px;
+	margin-bottom: 7px;
+	margin-left: 13px;
+	font-weight: bold;
+	text-shadow:1px;
+	font-family: 'Raleway', sans-serif;
+	}
+
+.tp-text {
+	font-family: 'Monda',sans-serif;
+	margin-top: 15px;
+	width: auto;
+	float: left;
+}
+
+.theaters {
+	font-family: 'Monda',sans-serif;
+	font-size:23px;
+	font-weight: bold;
+	color: rgb(139,115,85);
+}
+
+.small-titles {
+	font-family: 'Monda',sans-serif;
+	font-size: 18px;
+}
+
+#europe {
+	width: 1000px;
+	margin-top: 10px;
+	box-shadow: 2px 2px 2px;
+	height: 910px;
+}
+
+#ostfront {
+	width: auto;
+	margin-top: 10px;
+	box-shadow: 2px 2px 2px;
+	height: 766px;
+}
+
+#pacific {
+	width: auto;
+	margin-top: 10px;
+	box-shadow: 2px 2px 2px;
+	height: 783px;
+}
+
+#page-4 {
+	width: auto;
+	float: left;
+	margin-top: 40px;
+}
+
+#fourth-header {
+	position: relative;
+	background-color: rgb(255,160,122);
+	float: left;
+	height: 56px;
+	width: 1000px;
+	text-align: left;
+	box-shadow: 2px 2px 2px;
+	border-radius: 8px;
+
+}
+
+#fourth-title {
+	font-size: 25px;
+	color: rgb(165,42,42);
+	margin-top: 12px;
+	margin-bottom: 7px;
+	margin-left: 20px;
+	font-weight: bold;
+	text-shadow:1px ;
+	font-family: 'Raleway', sans-serif;
+}
+
+.gallery {
+	width: 960px;
+	margin:20px;
+	float: left;
+}
+
+.battle {
+	margin:10px;
+	width: 300px;
+	height: auto;
+	float: left;
+	text-align: center;
+	margin-top: 30px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 22px;
+}
+
+#fifth-header {
+	position: relative;
+	background-color: rgb(139,129,76);
+	float: left;
+	height: 56px;
+	width: 1000px;
+	text-align: left;
+	box-shadow: 2px 2px 2px;
+	border-radius: 8px;
+}
+
+#fifth-title {
+	font-size: 25px;
+	color: rgb(139,69,19);
+	margin-top: 14px;
+	margin-bottom: 7px;
+	margin-left: 20px;
+	font-weight: bold;
+	text-shadow:1px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.final-part {
+	float: left;
+	margin:50px;
+	width: 400px;
+}
+
+.final-text {
+	font-family: "Dosis",sans-serif;
+	font-weight: normal;
+	font-size: 25px;
+	color: rgb(99,76,76);
+	text-decoration: none;
+}
+
+.links {
+	font-family: "Dosis",sans-serif;
+	text-decoration: none;
+	color: rgb(99,76,76);
+	font-size: 20px;
+}
